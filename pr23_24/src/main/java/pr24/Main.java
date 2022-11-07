@@ -26,10 +26,6 @@ public class Main {
                     filename = url.split("/")[url.split("/").length - 1];
                     if (!hashMap.containsKey(filename))
                         hashMap.put(filename, url);
-
-
-//                    in = new URL(url).openStream();
-//                    Files.copy(in, Paths.get())
                 }
             }
             for (String name : hashMap.keySet()) {
