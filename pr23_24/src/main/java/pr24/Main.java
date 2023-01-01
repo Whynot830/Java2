@@ -17,7 +17,7 @@ public class Main {
         try {
             InputStream in;
             String filename;
-            String url = "https://www.mirea.ru";
+            String url = "https://www.mirea.ru/";
             HashMap<String, String> hashMap = new HashMap<>();
             Elements images = Jsoup.connect(url).get().select("img");
             for (Element image : images) {
