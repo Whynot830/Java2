@@ -1,2 +1,2 @@
 # Java2
->Practices №23-32
+>Practices №23-30
